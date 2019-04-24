@@ -66,18 +66,20 @@ $response = html_entity_decode($tmp);
 $response = stristr($response, '<root>');
 $pos = strpos($response, '</ns1:out>');
 $response = substr($response, 0, $pos);
-
 $obj = new SimpleXMLElement($response);
 //dd($obj);
 $counter = 0;
+$sc = 0;
 foreach ($obj as $item) {
 //    dd($item);
-    if ((string)$item->attributes()['reservationstatus'] == 0 && $counter < 20){
+    if ((string)$item->attributes()['reservationstatus'] == 0 && $counter < 400){
         $ids[] = (string)$item->attributes()['resourceid'];
         $counter++;
+        $ids = array_unique($ids);
     }
 
 }
+
 foreach ($ids as $id) {
     try {
         $struct = new MMKSruct1(Array(3497,'office@sea-time.co.il','seatime0',$id));
@@ -104,14 +106,14 @@ foreach ($ids as $id) {
 
     $objects[] = new SimpleXMLElement($response);
 }
-
+//dd($objects);
 $objectForView = [];
 $counter = 0;
 foreach ($objects as $object) {
 //    foreach ($object->resource->attributes() as $attribute) {
 //
 //    }
-    $objectForView[$counter]["model"] = (string)$object->resource->attributes()['id'];
+    $objectForView[$counter]["id"] = (string)$object->resource->attributes()['id'];
     $objectForView[$counter]["model"] = (string)$object->resource->attributes()['model'];
     $objectForView[$counter]["berths"] = (string)$object->resource->attributes()['berths'];
     $objectForView[$counter]["length"] = (string)$object->resource->attributes()['length'];
@@ -119,20 +121,15 @@ foreach ($objects as $object) {
     $objectForView[$counter]["heads"] = (string)$object->resource->attributes()['heads'];
     $objectForView[$counter]["engine"] = (string)$object->resource->attributes()['engine'];
     $objectForView[$counter]["price"] = (string)$object->resource->attributes()['deposit'];
+    foreach ($object->resource->images as $image){
+        foreach ($image as $fuckMe){
+            $images[] = (string)$fuckMe->attributes()['href'];
+        }
+        $objectForView[$counter]["images"] = $images;
+        unset($images);
+    }
     $counter++;
 }
-
-
-
-dd($objectForView);
-
-
-
-
-
-
-
-
 
 
 ?>
@@ -167,229 +164,8 @@ dd($objectForView);
 
 
 <?php
-/* Template Name: Yacht Search */
+
 get_header();
-if(isset($_GET['length']) || isset($_GET['price']))
-{
-    $maxL = 9999999;
-    $minL = 0;
-    $maxPrice = 9999999;
-    $minPrice = 0;
-    $cabins = 0;
-
-    if (strlen($_GET['room'] != 0)){
-        $cabins = $_GET['room'];
-    }
-    if (strlen($_GET['price']) != 0){
-        $arr = explode(',', $_GET['price']);
-        $minPrice = $arr[0];
-        $maxPrice = $arr[1];
-    }
-    if (strlen($_GET['length']) != 0){
-        $arr = explode(',', $_GET['length']);
-        $minL = $arr[0];
-        $maxL = $arr[1];
-    }
-
-
-    $args = [
-        'maxLength' => $maxL,
-        'minLength' => $minL,
-        'maxPrice'  => $maxPrice,
-        'minPrice'  => $minPrice,
-        'cabins'    => $cabins,
-    ];
-
-    if (strlen($_GET['countrySelect']) != 0 &&
-        strlen($_GET['typeSelect']) != 0 &&
-        strlen($_GET['year-true']) != 0){
-
-        $args['countrySelect'] = $_GET['countrySelect'];
-        $args['typeSelect'] = $_GET['typeSelect'];
-        $args['year-true'] = $_GET['year-true'];
-    }
-    elseif (strlen($_GET['countrySelect']) != 0 &&
-        strlen($_GET['typeSelect']) != 0){
-
-        $args['countrySelect'] = $_GET['countrySelect'];
-        $args['typeSelect'] = $_GET['typeSelect'];
-
-    }
-    elseif( strlen($_GET['typeSelect']) != 0 &&
-        strlen($_GET['year-true']) != 0){
-
-        $args['typeSelect'] = $_GET['typeSelect'];
-        $args['year-true'] = $_GET['year-true'];
-
-    }elseif ( strlen($_GET['year-true']) != 0 &&
-        strlen($_GET['countrySelect']) != 0){
-
-        $args['countrySelect'] = $_GET['countrySelect'];
-        $args['year-true'] = $_GET['year-true'];
-
-    }elseif (strlen($_GET['year-true']) != 0){
-        $args['year-true'] = $_GET['year-true'];
-    }elseif (strlen($_GET['countrySelect']) != 0){
-        $args['countrySelect'] = $_GET['countrySelect'];
-    }elseif(strlen($_GET['typeSelect']) != 0){
-        $args['typeSelect'] = $_GET['typeSelect'];
-    }
-
-    $yachtsForDisplay = filtration($args);
-}
-?>
-
-<?php
-function filtration($arr){
-
-    $maxL = $arr['maxLength'];
-    $minL = $arr['minLength'];
-    $maxPrice = $arr['maxPrice'];
-    $minPrice = $arr['minPrice'];
-    $cabins = $arr['cabins'];
-    global $wpdb;
-    $table_name = $wpdb->get_blog_prefix() . 'yachts';
-//    $locations = $wpdb->get_blog_prefix() . 'yachts_locations';
-    if (isset($arr['countrySelect']) && isset($arr['year-true']) && isset($arr['typeSelect'])){
-
-        $country = "'".$arr['countrySelect']."'";
-        $year = $arr['year-true'];
-        $yachtType = "'".$arr['typeSelect']."'";
-//        $col = 123;
-        $col = $wpdb->get_results("SELECT * FROM $table_name WHERE 
-                    length < $maxL and length > $minL and 
-                    price < $maxPrice and price > $minPrice and
-                    country_id = $country and year >= $year and kind = $yachtType 
-                    and cabins >= $cabins");
-    }
-    elseif (isset($arr['year-true']) && isset($arr['typeSelect'])){
-
-        $year = $arr['year-true'];
-        $yachtType = "'".$arr['typeSelect']."'";
-
-        $col = $wpdb->get_results("SELECT * FROM $table_name WHERE 
-                    length < $maxL and length > $minL and 
-                    price < $maxPrice and price > $minPrice and 
-                    year >= $year and kind = $yachtType and cabins >= $cabins");
-    }
-    elseif (isset($arr['countrySelect']) && isset($arr['typeSelect'])){
-
-        $country = "'".$arr['countrySelect']."'";
-        $yachtType = "'".$arr['typeSelect']."'";
-
-        $col = $wpdb->get_results("SELECT * FROM $table_name WHERE 
-                    length < $maxL and length > $minL and 
-                    price < $maxPrice and price > $minPrice and 
-                    country_id = $country and kind = $yachtType and cabins >= $cabins");
-    }
-    elseif (isset($arr['countrySelect']) && isset($arr['year-true'])){
-
-        $country = "'".$arr['countrySelect']."'";
-        $year = $arr['year-true'];
-
-        $col = $wpdb->get_results("SELECT * FROM $table_name WHERE 
-                    length < $maxL and length > $minL and 
-                    price < $maxPrice and price > $minPrice and 
-                    country_id = $country and year >= $year and cabins >= $cabins");
-    }
-    elseif (isset($arr['countrySelect'])){
-
-        $country = "'".$arr['countrySelect']."'";
-
-        $col = $wpdb->get_results("SELECT * FROM $table_name WHERE 
-                    length < $maxL and length > $minL and 
-                    price < $maxPrice and price > $minPrice 
-                    and country_id = $country and cabins >= $cabins");
-    }elseif (isset($arr['year-true'])){
-        $year = $arr['year-true'];
-        $col = $wpdb->get_results("SELECT * FROM $table_name WHERE 
-                    length < $maxL and length > $minL and 
-                    price < $maxPrice and price > $minPrice 
-                    and year >= $year and cabins >= $cabins");
-    }
-    elseif (isset($arr['typeSelect'])){
-
-        $yachtType = "'".$arr['typeSelect']."'";
-
-        $col = $wpdb->get_results("SELECT * FROM $table_name WHERE 
-                    length < $maxL and length > $minL and 
-                    price < $maxPrice and price > $minPrice 
-                    and kind = $yachtType and cabins >= $cabins");
-    }
-    else{
-        $col = $wpdb->get_results("SELECT * FROM $table_name WHERE 
-                    length < $maxL and length > $minL and 
-                    price < $maxPrice and price > $minPrice and cabins >= $cabins");
-    }
-    if (isset($_GET['options'])){
-        $TableOptions = $wpdb->get_blog_prefix() . 'options_for_yachts';
-        $options = $wpdb->get_results("select * from $TableOptions");
-        $output = [];
-        $counter = 0;
-//        foreach ($col as $yacht){
-//            foreach ($options as $option){
-//                foreach ($_GET['options'] as $getOption) {
-//                    $innerCounter = 0;
-//                    if ($yacht->id == $option->yacht_id && $option->name = $getOption){
-//                        if ($option->id == 9){
-//                            echo $option->id.'<br>'.$option->name;
-//                        }
-//                        $output[] = $yacht;
-//                        $counter++;
-//                    }
-//                    if ($counter > 0){
-//                        foreach ($output as $key => $out){
-//                            if ($out->id == $yacht->id){
-//                                if ($innerCounter == 0){
-//                                    $innerCounter++;
-//                                }else{
-//                                    unset($output[$key]);
-//                                }
-//                            }
-//                        }
-//                    }
-//                }
-//                $counter = 0;
-//            }
-//        }
-
-        foreach ($_GET['options'] as $option) {
-            $singleOption = $wpdb->get_results("select * from wp_options_for_yachts where name = '$option'");
-            foreach ($singleOption as $single){
-                foreach ($col as $yacht) {
-                    if ($yacht->id == $single->yacht_id && !in_array($yacht, $output)){
-                        $output[] = $yacht;
-                    }
-                }
-            }
-        }
-//dd($_GET['options']);
-
-        foreach ($_GET['options'] as $option) {
-            foreach ($output as $key => $out) {
-                if (!$wpdb->get_results("select * from wp_options_for_yachts where yacht_id = $out->id and name = '$option' ")){
-                    unset($output[$key]);
-                }
-            }
-        }
-//        dd($output);
-
-        foreach ($output as $key => $item) {
-            $output[$key] = json_decode(json_encode($item), true);
-        }
-        foreach ($output as $key => $item) {
-            $current = $output[$key];
-            $ass = $output[$key+1];
-
-            if ($current['id'] == $ass['id']){
-                unset($output[$key]);
-            }
-        }
-            $col = $output;
-    }
-    return $col;
-}
-
 ?>
 
 <style>
@@ -674,148 +450,43 @@ function filtration($arr){
 <div class="aboutus_wrapper first">
     <h2 class="SBTxtHeading">Yacht Search</h2>
     <div class="SearchBlock">
-        <?php
-            if (empty($_GET)){
-                ?>
-
-
-                <?
-            }
-        else{
-            ?>
-
-            <?php
-        }
-
-
-        ?>
-
 
         <div class="FilterRow">
             <div class="SingleFilter">
-<!--                <p class="FilterRowName">Result for:</p>-->
-<!--                <select name="locationFilterSelect" size="1">-->
-<!--                    <option value="Ibiza">Ibiza</option>-->
-<!--                    <option value="England">England</option>-->
-<!--                    <option value="Europe">Europe</option>-->
-<!--                    <option value="America">America</option>-->
-<!--                </select>-->
             </div>
 
         </div>
-
         <?php
-        if (!$_GET){
-            global $wpdb;
-            $all = $wpdb->get_results("select * from wp_yachts");
-            $images = $wpdb->get_results("select * from wp_images_for_yachts");
-            foreach ($all as $yacht) {
-                ?>
 
-                <div class="ProductItem">
-                    <div class="PItemImages">
-                        <div class="PItemSlider">
-                            <?php
-                            foreach ($images as $image) {
-                                if ($image->yacht_id == $yacht->id) {
-                                    ?><img src="<?= $image->image ?>" class="PISliderItem"><?php
-                                }
-                            }
-                            ?>
-                        </div>
-                    </div>
-                    <div class="PItemOptions">
-                        <div class="PIOHeadingBlock">
-                            <span class="PIOName"><?=$yacht->yacht_name ?></span>
-                            <span class="PIOLocation"><?=$yacht->country_id ?></span>
-                        </div>
-                        <hr class="PIOHr">
-                        <span class="PIOExcerpt">!!!!!!!!</span>
-                        <div class="PIOLowerBlock">
-                            <div class="PIOLength"><span class="PIOValue"><?=$yacht->length ?></span> m</div>
-                            <div class="PIORooms"><span class="PIOValue"><?=$yacht->cabins ?></span> rooms</div>
-                            <hr class="PIOHr">
-                            <span class="PIOPrice">Price per day: <span class="PIOValue"><?=$yacht->price ?>$</span></span>
-                        </div>
+        foreach ($objectForView as $yacht) {
+            ?>
+            <div class="ProductItem">
+                <div class="PItemImages">
+                    <div class="PItemSlider">
+                        <?php
+                        foreach ($yacht['images'] as $image) {
+                            ?> <img src="<?= $image?>" class="PISliderItem"><?php
+                        }
+                        ?>
+
                     </div>
                 </div>
-
-                <?php
-            }
-
-        }
-        else{
-            if (is_array($yachtsForDisplay[0])){
-                foreach ($yachtsForDisplay as $yacht) {
-                    ?>
-                    <div class="ProductItem">
-                        <div class="PItemImages">
-                            <?php
-                            //                        dd($_GET['options']);
-                            $id = $yacht['id'];
-                            $images = $wpdb->get_results("select * from wp_images_for_yachts where yacht_id = $id");
-                            ?>
-                            <div class="PItemSlider">
-                                <?php
-                                foreach ($images as $image) {
-                                    ?><img src="<?= $image->image ?>" class="PISliderItem"><?php
-                                }
-                                ?>
-                            </div>
-                        </div>
-                        <div class="PItemOptions">
-                            <div class="PIOHeadingBlock">
-                                <span class="PIOName"><?=$yacht['yacht_name']?></span>
-                                <span class="PIOLocation"><?=$yacht['country_id']?></span>
-                            </div>
-                            <hr class="PIOHr">
-                            <span class="PIOExcerpt">!!!!!!!!</span>
-                            <div class="PIOLowerBlock">
-                                <div class="PIOLength"><span class="PIOValue"><?=$yacht['length']?></span> m</div>
-                                <div class="PIORooms"><span class="PIOValue"><?=$yacht['cabins']?></span> rooms</div>
-                                <hr class="PIOHr">
-                                <span class="PIOPrice">Price per day: <span class="PIOValue"><?=$yacht['price']?>$</span></span>
-                            </div>
-                        </div>
+                <div class="PItemOptions">
+                    <div class="PIOHeadingBlock">
+                        <span class="PIOName"></span>
+                        <span class="PIOLocation"></span>
                     </div>
-                    <?php
-                }
-            }else{
-                foreach ($yachtsForDisplay as $yacht) {
-                    ?>
-                    <div class="ProductItem">
-                        <div class="PItemImages">
-                            <?php
-                                $images = $wpdb->get_results("select * from wp_images_for_yachts where yacht_id = $yacht->id");
-                            ?>
-                            <div class="PItemSlider">
-                                <?php
-                                foreach ($images as $image) {
-                                        ?><img src="<?= $image->image ?>" class="PISliderItem"><?php
-                                }
-                                ?>
-                            </div>
-                        </div>
-                        <div class="PItemOptions">
-                            <div class="PIOHeadingBlock">
-                                <span class="PIOName"><?=$yacht->yacht_name ?></span>
-                                <span class="PIOLocation"><?=$yacht->country_id ?></span>
-                            </div>
-                            <hr class="PIOHr">
-                            <span class="PIOExcerpt">!!!!!!!!</span>
-                            <div class="PIOLowerBlock">
-                                <div class="PIOLength"><span class="PIOValue"><?=$yacht->length ?></span> m</div>
-                                <div class="PIORooms"><span class="PIOValue"><?=$yacht->cabins ?></span> rooms</div>
-                                <hr class="PIOHr">
-                                <span class="PIOPrice">Price per day: <span class="PIOValue"><?=$yacht->price ?>$</span></span>
-                            </div>
-                        </div>
+                    <hr class="PIOHr">
+                    <span class="PIOExcerpt">!!!!!!!!</span>
+                    <div class="PIOLowerBlock">
+                        <div class="PIOLength"><span class="PIOValue"></span> m</div>
+                        <div class="PIORooms"><span class="PIOValue"></span> rooms</div>
+                        <hr class="PIOHr">
+                        <span class="PIOPrice">Price per day: <span class="PIOValue"></span></span>
                     </div>
-                    <?php
-                }
-        }
-        }
-        ?>
+                </div>
+            </div>
+            <?php } ?>
 
     </div>
 </div>
