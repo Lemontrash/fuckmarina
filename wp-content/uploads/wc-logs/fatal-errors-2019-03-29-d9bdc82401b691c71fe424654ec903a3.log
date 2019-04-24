@@ -1,0 +1,86 @@
+2019-03-29T08:40:36+00:00 CRITICAL Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://www.booking-manager.com/cbm_web_service2/services/CBM?wsdl' : failed to load external entity "https://www.booking-manager.com/cbm_web_service2/services/CBM?wsdl"
+ in W:\domains\MarinaWP\wp-content\themes\marinka\api.php:36
+Stack trace:
+#0 W:\domains\MarinaWP\wp-content\themes\marinka\api.php(36): SoapClient->SoapClient('https://www.boo...', Array)
+#1 W:\domains\MarinaWP\wp-content\themes\marinka\single-yacht.php(2): require('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-includes\template-loader.php(74): include('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#4 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#5 {main}
+  thrown in W:\domains\MarinaWP\wp-content\themes\marinka\api.php on line 36
+
+2019-03-29T08:41:11+00:00 CRITICAL Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://www.booking-manager.com/cbm_web_service2/services/CBM?wsdl' : failed to load external entity "https://www.booking-manager.com/cbm_web_service2/services/CBM?wsdl"
+ in W:\domains\MarinaWP\wp-content\themes\marinka\api.php:36
+Stack trace:
+#0 W:\domains\MarinaWP\wp-content\themes\marinka\api.php(36): SoapClient->SoapClient('https://www.boo...', Array)
+#1 W:\domains\MarinaWP\wp-content\themes\marinka\single-yacht.php(2): require('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-includes\template-loader.php(74): include('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#4 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#5 {main}
+  thrown in W:\domains\MarinaWP\wp-content\themes\marinka\api.php on line 36
+
+2019-03-29T09:16:03+00:00 CRITICAL Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://www.booking-manager.com/cbm_web_service2/services/CBM?wsdl' : failed to load external entity "https://www.booking-manager.com/cbm_web_service2/services/CBM?wsdl"
+ in W:\domains\MarinaWP\wp-content\themes\marinka\api.php:36
+Stack trace:
+#0 W:\domains\MarinaWP\wp-content\themes\marinka\api.php(36): SoapClient->SoapClient('https://www.boo...', Array)
+#1 W:\domains\MarinaWP\wp-content\themes\marinka\single-yacht.php(2): require('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-includes\template-loader.php(74): include('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#4 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#5 {main}
+  thrown in W:\domains\MarinaWP\wp-content\themes\marinka\api.php on line 36
+
+2019-03-29T09:17:47+00:00 CRITICAL Uncaught Error: Call to a member function getAvaliabilityInfo() on null in W:\domains\MarinaWP\wp-content\themes\marinka\api.php:46
+Stack trace:
+#0 W:\domains\MarinaWP\wp-content\themes\marinka\single-yacht.php(2): require()
+#1 W:\domains\MarinaWP\wp-includes\template-loader.php(74): include('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-content\themes\marinka\api.php on line 46
+
+2019-03-29T09:35:29+00:00 CRITICAL Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://www.booking-manager.com/cbm_web_service2/services/CBM?wsdl' : failed to load external entity "https://www.booking-manager.com/cbm_web_service2/services/CBM?wsdl"
+ in W:\domains\MarinaWP\wp-content\themes\marinka\api.php:93
+Stack trace:
+#0 W:\domains\MarinaWP\wp-content\themes\marinka\api.php(93): SoapClient->SoapClient('https://www.boo...', Array)
+#1 W:\domains\MarinaWP\wp-content\themes\marinka\single-yacht.php(2): require('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-includes\template-loader.php(74): include('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#4 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#5 {main}
+  thrown in W:\domains\MarinaWP\wp-content\themes\marinka\api.php on line 93
+
+2019-03-29T09:52:12+00:00 CRITICAL Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://www.booking-manager.com/cbm_web_service2/services/CBM?wsdl' : failed to load external entity "https://www.booking-manager.com/cbm_web_service2/services/CBM?wsdl"
+ in W:\domains\MarinaWP\wp-content\themes\marinka\api.php:93
+Stack trace:
+#0 W:\domains\MarinaWP\wp-content\themes\marinka\api.php(93): SoapClient->SoapClient('https://www.boo...', Array)
+#1 W:\domains\MarinaWP\wp-content\themes\marinka\single-yacht.php(2): require('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-includes\template-loader.php(74): include('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#4 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#5 {main}
+  thrown in W:\domains\MarinaWP\wp-content\themes\marinka\api.php on line 93
+
+2019-03-29T10:07:25+00:00 CRITICAL Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://www.booking-manager.com/cbm_web_service2/services/CBM?wsdl' : failed to load external entity "https://www.booking-manager.com/cbm_web_service2/services/CBM?wsdl"
+ in W:\domains\MarinaWP\wp-content\themes\marinka\api.php:135
+Stack trace:
+#0 W:\domains\MarinaWP\wp-content\themes\marinka\api.php(135): SoapClient->SoapClient('https://www.boo...', Array)
+#1 W:\domains\MarinaWP\wp-content\themes\marinka\single-yacht.php(2): require('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-includes\template-loader.php(74): include('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#4 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#5 {main}
+  thrown in W:\domains\MarinaWP\wp-content\themes\marinka\api.php on line 135
+
+2019-03-29T12:12:11+00:00 CRITICAL Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://www.booking-manager.com/cbm_web_service2/services/CBM?wsdl' : failed to load external entity "https://www.booking-manager.com/cbm_web_service2/services/CBM?wsdl"
+ in W:\domains\MarinaWP\wp-content\themes\marinka\api.php:136
+Stack trace:
+#0 W:\domains\MarinaWP\wp-content\themes\marinka\api.php(136): SoapClient->SoapClient('https://www.boo...', Array)
+#1 W:\domains\MarinaWP\wp-content\themes\marinka\single-yacht.php(2): require('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-includes\template-loader.php(74): include('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#4 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#5 {main}
+  thrown in W:\domains\MarinaWP\wp-content\themes\marinka\api.php on line 136
+

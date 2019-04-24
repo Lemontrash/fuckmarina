@@ -1,0 +1,36 @@
+2019-04-12T08:50:52+00:00 CRITICAL Uncaught Exception: String could not be parsed as XML in W:\domains\MarinaWP\wp-content\plugins\marina.php:109
+Stack trace:
+#0 W:\domains\MarinaWP\wp-content\plugins\marina.php(109): SimpleXMLElement->__construct('')
+#1 W:\domains\MarinaWP\wp-content\plugins\marina.php(115): getApiRequest()
+#2 W:\domains\MarinaWP\wp-content\plugins\marina.php(174): compareToDb()
+#3 W:\domains\MarinaWP\wp-content\themes\marinka\aboutUs.php(6): insertAll()
+#4 W:\domains\MarinaWP\wp-includes\template-loader.php(74): include('W:\\domains\\Mari...')
+#5 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#6 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#7 {main}
+  thrown in W:\domains\MarinaWP\wp-content\plugins\marina.php on line 109
+
+2019-04-12T09:08:41+00:00 CRITICAL Uncaught Exception: String could not be parsed as XML in W:\domains\MarinaWP\wp-content\plugins\marina.php:109
+Stack trace:
+#0 W:\domains\MarinaWP\wp-content\plugins\marina.php(109): SimpleXMLElement->__construct('')
+#1 W:\domains\MarinaWP\wp-content\plugins\marina.php(115): getApiRequest()
+#2 W:\domains\MarinaWP\wp-content\plugins\marina.php(173): compareToDb()
+#3 W:\domains\MarinaWP\wp-content\themes\marinka\aboutUs.php(6): insertAll()
+#4 W:\domains\MarinaWP\wp-includes\template-loader.php(74): include('W:\\domains\\Mari...')
+#5 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#6 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#7 {main}
+  thrown in W:\domains\MarinaWP\wp-content\plugins\marina.php on line 109
+
+2019-04-12T10:39:20+00:00 CRITICAL Uncaught Exception: String could not be parsed as XML in W:\domains\MarinaWP\wp-content\plugins\marina.php:109
+Stack trace:
+#0 W:\domains\MarinaWP\wp-content\plugins\marina.php(109): SimpleXMLElement->__construct('')
+#1 W:\domains\MarinaWP\wp-content\plugins\marina.php(115): getApiRequest()
+#2 W:\domains\MarinaWP\wp-content\plugins\marina.php(175): getAllDataForYachtsFromApi()
+#3 W:\domains\MarinaWP\wp-content\themes\marinka\aboutUs.php(6): insertAll()
+#4 W:\domains\MarinaWP\wp-includes\template-loader.php(74): include('W:\\domains\\Mari...')
+#5 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#6 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#7 {main}
+  thrown in W:\domains\MarinaWP\wp-content\plugins\marina.php on line 109
+

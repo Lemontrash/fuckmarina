@@ -1,0 +1,18 @@
+2019-04-02T13:02:59+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Term as array in W:\domains\MarinaWP\wp-content\themes\marinka\single-lessons.php:27
+Stack trace:
+#0 W:\domains\MarinaWP\wp-includes\template-loader.php(74): include()
+#1 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#3 {main}
+  thrown in W:\domains\MarinaWP\wp-content\themes\marinka\single-lessons.php on line 27
+
+2019-04-02T14:49:02+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in W:\domains\MarinaWP\wp-content\themes\marinka\single-lessons.php on line 122
+
+2019-04-02T16:02:13+00:00 CRITICAL Uncaught Error: Call to undefined function get_post_thumbnail_url() in W:\domains\MarinaWP\wp-content\themes\marinka\single-lessons.php:162
+Stack trace:
+#0 W:\domains\MarinaWP\wp-includes\template-loader.php(74): include()
+#1 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#3 {main}
+  thrown in W:\domains\MarinaWP\wp-content\themes\marinka\single-lessons.php on line 162
+

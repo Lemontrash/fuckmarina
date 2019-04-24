@@ -1,0 +1,74 @@
+2019-03-26T10:15:16+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Query::query(), 0 passed in W:\domains\MarinaWP\wp-content\themes\marinka\mainpage_template.php on line 120 and exactly 1 expected in W:\domains\MarinaWP\wp-includes\class-wp-query.php:3384
+Stack trace:
+#0 W:\domains\MarinaWP\wp-content\themes\marinka\mainpage_template.php(120): WP_Query->query()
+#1 W:\domains\MarinaWP\wp-includes\template-loader.php(77): include('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-includes\class-wp-query.php on line 3384
+
+2019-03-26T10:15:51+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Query::query(), 0 passed in W:\domains\MarinaWP\wp-content\themes\marinka\mainpage_template.php on line 120 and exactly 1 expected in W:\domains\MarinaWP\wp-includes\class-wp-query.php:3384
+Stack trace:
+#0 W:\domains\MarinaWP\wp-content\themes\marinka\mainpage_template.php(120): WP_Query->query()
+#1 W:\domains\MarinaWP\wp-includes\template-loader.php(77): include('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-includes\class-wp-query.php on line 3384
+
+2019-03-26T10:16:43+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Query::query(), 0 passed in W:\domains\MarinaWP\wp-content\themes\marinka\mainpage_template.php on line 120 and exactly 1 expected in W:\domains\MarinaWP\wp-includes\class-wp-query.php:3384
+Stack trace:
+#0 W:\domains\MarinaWP\wp-content\themes\marinka\mainpage_template.php(120): WP_Query->query()
+#1 W:\domains\MarinaWP\wp-includes\template-loader.php(77): include('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-includes\class-wp-query.php on line 3384
+
+2019-03-26T10:17:05+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Query::query(), 0 passed in W:\domains\MarinaWP\wp-content\themes\marinka\mainpage_template.php on line 120 and exactly 1 expected in W:\domains\MarinaWP\wp-includes\class-wp-query.php:3384
+Stack trace:
+#0 W:\domains\MarinaWP\wp-content\themes\marinka\mainpage_template.php(120): WP_Query->query()
+#1 W:\domains\MarinaWP\wp-includes\template-loader.php(77): include('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-includes\class-wp-query.php on line 3384
+
+2019-03-26T10:17:32+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Query::query(), 0 passed in W:\domains\MarinaWP\wp-content\themes\marinka\mainpage_template.php on line 120 and exactly 1 expected in W:\domains\MarinaWP\wp-includes\class-wp-query.php:3384
+Stack trace:
+#0 W:\domains\MarinaWP\wp-content\themes\marinka\mainpage_template.php(120): WP_Query->query()
+#1 W:\domains\MarinaWP\wp-includes\template-loader.php(77): include('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-includes\class-wp-query.php on line 3384
+
+2019-03-26T10:17:51+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Query::query(), 0 passed in W:\domains\MarinaWP\wp-content\themes\marinka\mainpage_template.php on line 120 and exactly 1 expected in W:\domains\MarinaWP\wp-includes\class-wp-query.php:3384
+Stack trace:
+#0 W:\domains\MarinaWP\wp-content\themes\marinka\mainpage_template.php(120): WP_Query->query()
+#1 W:\domains\MarinaWP\wp-includes\template-loader.php(77): include('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-includes\class-wp-query.php on line 3384
+
+2019-03-26T10:18:17+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Query::query(), 0 passed in W:\domains\MarinaWP\wp-content\themes\marinka\mainpage_template.php on line 119 and exactly 1 expected in W:\domains\MarinaWP\wp-includes\class-wp-query.php:3384
+Stack trace:
+#0 W:\domains\MarinaWP\wp-content\themes\marinka\mainpage_template.php(119): WP_Query->query()
+#1 W:\domains\MarinaWP\wp-includes\template-loader.php(77): include('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-includes\class-wp-query.php on line 3384
+
+2019-03-26T10:18:34+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Query::query(), 0 passed in W:\domains\MarinaWP\wp-content\themes\marinka\mainpage_template.php on line 119 and exactly 1 expected in W:\domains\MarinaWP\wp-includes\class-wp-query.php:3384
+Stack trace:
+#0 W:\domains\MarinaWP\wp-content\themes\marinka\mainpage_template.php(119): WP_Query->query()
+#1 W:\domains\MarinaWP\wp-includes\template-loader.php(77): include('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-includes\class-wp-query.php on line 3384
+
+2019-03-26T15:03:59+00:00 CRITICAL syntax error, unexpected '''' (T_CONSTANT_ENCAPSED_STRING) in W:\domains\MarinaWP\wp-content\themes\marinka\templates\template-test.php on line 7
+

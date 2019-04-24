@@ -1,0 +1,48 @@
+2019-04-11T10:17:30+00:00 CRITICAL Uncaught Exception: String could not be parsed as XML in W:\domains\MarinaWP\wp-content\plugins\marina.php:101
+Stack trace:
+#0 W:\domains\MarinaWP\wp-content\plugins\marina.php(101): SimpleXMLElement->__construct('')
+#1 W:\domains\MarinaWP\wp-content\plugins\marina.php(107): getApiRequest()
+#2 W:\domains\MarinaWP\wp-content\plugins\marina.php(155): compareToDb()
+#3 W:\domains\MarinaWP\wp-content\themes\marinka\aboutUs.php(6): insertAll()
+#4 W:\domains\MarinaWP\wp-includes\template-loader.php(74): include('W:\\domains\\Mari...')
+#5 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#6 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#7 {main}
+  thrown in W:\domains\MarinaWP\wp-content\plugins\marina.php on line 101
+
+2019-04-11T12:18:13+00:00 CRITICAL Uncaught Exception: String could not be parsed as XML in W:\domains\MarinaWP\wp-content\plugins\marina.php:101
+Stack trace:
+#0 W:\domains\MarinaWP\wp-content\plugins\marina.php(101): SimpleXMLElement->__construct('')
+#1 W:\domains\MarinaWP\wp-content\plugins\marina.php(107): getApiRequest()
+#2 W:\domains\MarinaWP\wp-content\plugins\marina.php(155): compareToDb()
+#3 W:\domains\MarinaWP\wp-content\themes\marinka\aboutUs.php(6): insertAll()
+#4 W:\domains\MarinaWP\wp-includes\template-loader.php(74): include('W:\\domains\\Mari...')
+#5 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#6 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#7 {main}
+  thrown in W:\domains\MarinaWP\wp-content\plugins\marina.php on line 101
+
+2019-04-11T12:19:09+00:00 CRITICAL Uncaught Exception: String could not be parsed as XML in W:\domains\MarinaWP\wp-content\plugins\marina.php:101
+Stack trace:
+#0 W:\domains\MarinaWP\wp-content\plugins\marina.php(101): SimpleXMLElement->__construct('')
+#1 W:\domains\MarinaWP\wp-content\plugins\marina.php(107): getApiRequest()
+#2 W:\domains\MarinaWP\wp-content\plugins\marina.php(155): compareToDb()
+#3 W:\domains\MarinaWP\wp-content\themes\marinka\aboutUs.php(6): insertAll()
+#4 W:\domains\MarinaWP\wp-includes\template-loader.php(74): include('W:\\domains\\Mari...')
+#5 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#6 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#7 {main}
+  thrown in W:\domains\MarinaWP\wp-content\plugins\marina.php on line 101
+
+2019-04-11T12:51:17+00:00 CRITICAL Uncaught Exception: String could not be parsed as XML in W:\domains\MarinaWP\wp-content\plugins\marina.php:101
+Stack trace:
+#0 W:\domains\MarinaWP\wp-content\plugins\marina.php(101): SimpleXMLElement->__construct('')
+#1 W:\domains\MarinaWP\wp-content\plugins\marina.php(107): getApiRequest()
+#2 W:\domains\MarinaWP\wp-content\plugins\marina.php(155): compareToDb()
+#3 W:\domains\MarinaWP\wp-content\themes\marinka\aboutUs.php(6): insertAll()
+#4 W:\domains\MarinaWP\wp-includes\template-loader.php(74): include('W:\\domains\\Mari...')
+#5 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#6 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#7 {main}
+  thrown in W:\domains\MarinaWP\wp-content\plugins\marina.php on line 101
+

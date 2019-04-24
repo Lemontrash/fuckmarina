@@ -1,0 +1,65 @@
+/**
+ * Public-facing styles.
+ *
+ * @package Nice_Likes
+ * @since   1.0
+ */
+
+// Including mixins and variables.
+@import "sass/mixins/_mixins-master";
+@import "sass/variables/_variables";
+
+body {
+	a {
+		&.nice-likes {
+			display: inline-block;
+			margin-bottom: 1em;
+			text-decoration: none;
+
+			i.nice-likes-icon-heart {
+				&:before {
+					height: unset;
+					line-height: unset;
+					margin: 0;
+				}
+
+				&:after {
+					content: " ";
+				}
+			}
+
+			&:hover {
+				cursor: pointer;
+			}
+			&.updating,
+			&.waiting {
+				opacity: 0.5;
+				pointer-events: none;
+			}
+			&.liked {
+				color: #F26B5F;
+				pointer-events: none;
+			}
+		}
+
+		&.nice-likes-unlike {
+			color: grey;
+			margin-left: 0.5em;
+			text-decoration: none;
+
+			&:hover {
+				cursor: pointer;
+			}
+			&.updating {
+				opacity: 0.5;
+				pointer-events: none;
+			}
+		}
+	}
+
+	&.rtl a.nice-likes-unlike {
+		margin-left: 0;
+		margin-right: 0.5em;
+	}
+}
+

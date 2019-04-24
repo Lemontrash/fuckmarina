@@ -1,0 +1,291 @@
+2019-03-27T14:09:28+00:00 CRITICAL Uncaught Error: Call to undefined method _WP_Dependency::set_translations() in W:\domains\MarinaWP\wp-includes\class.wp-scripts.php:521
+Stack trace:
+#0 W:\domains\MarinaWP\wp-includes\script-loader.php(488): WP_Scripts->set_translations('wp-api-fetch')
+#1 W:\domains\MarinaWP\wp-includes\script-loader.php(738): wp_default_packages_scripts(Object(WP_Scripts))
+#2 W:\domains\MarinaWP\wp-includes\class-wp-hook.php(286): wp_default_packages(Object(WP_Scripts))
+#3 W:\domains\MarinaWP\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#4 W:\domains\MarinaWP\wp-includes\plugin.php(531): WP_Hook->do_action(Array)
+#5 W:\domains\MarinaWP\wp-includes\class.wp-scripts.php(148): do_action_ref_array('wp_default_scri...', Array)
+#6 W:\domains\MarinaWP\wp-includes\class.wp-scripts.php(131): WP_Scripts->init()
+#7 W:\domains\MarinaWP\wp-includes\functions.wp-scripts.php(23): WP_Scripts->__construct()
+#8 W:\domains\MarinaWP\wp-includes\functions.wp-scripts.php(155): wp_scripts()
+#9 W:\domains\MarinaWP\wp-cont in W:\domains\MarinaWP\wp-includes\class.wp-scripts.php on line 521
+
+2019-03-27T14:09:29+00:00 CRITICAL Uncaught Error: Call to undefined method _WP_Dependency::set_translations() in W:\domains\MarinaWP\wp-includes\class.wp-scripts.php:521
+Stack trace:
+#0 W:\domains\MarinaWP\wp-includes\script-loader.php(488): WP_Scripts->set_translations('wp-api-fetch')
+#1 W:\domains\MarinaWP\wp-includes\script-loader.php(738): wp_default_packages_scripts(Object(WP_Scripts))
+#2 W:\domains\MarinaWP\wp-includes\class-wp-hook.php(286): wp_default_packages(Object(WP_Scripts))
+#3 W:\domains\MarinaWP\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#4 W:\domains\MarinaWP\wp-includes\plugin.php(531): WP_Hook->do_action(Array)
+#5 W:\domains\MarinaWP\wp-includes\class.wp-scripts.php(148): do_action_ref_array('wp_default_scri...', Array)
+#6 W:\domains\MarinaWP\wp-includes\class.wp-scripts.php(131): WP_Scripts->init()
+#7 W:\domains\MarinaWP\wp-includes\functions.wp-scripts.php(23): WP_Scripts->__construct()
+#8 W:\domains\MarinaWP\wp-includes\functions.wp-scripts.php(155): wp_scripts()
+#9 W:\domains\MarinaWP\wp-cont in W:\domains\MarinaWP\wp-includes\class.wp-scripts.php on line 521
+
+2019-03-27T14:09:29+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Scripts::set_translations() in W:\domains\MarinaWP\wp-includes\script-loader.php:488
+Stack trace:
+#0 W:\domains\MarinaWP\wp-includes\script-loader.php(738): wp_default_packages_scripts(Object(WP_Scripts))
+#1 W:\domains\MarinaWP\wp-includes\class-wp-hook.php(286): wp_default_packages(Object(WP_Scripts))
+#2 W:\domains\MarinaWP\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\MarinaWP\wp-includes\plugin.php(531): WP_Hook->do_action(Array)
+#4 W:\domains\MarinaWP\wp-includes\class.wp-scripts.php(148): do_action_ref_array('wp_default_scri...', Array)
+#5 W:\domains\MarinaWP\wp-includes\class.wp-scripts.php(131): WP_Scripts->init()
+#6 W:\domains\MarinaWP\wp-includes\functions.wp-scripts.php(23): WP_Scripts->__construct()
+#7 W:\domains\MarinaWP\wp-includes\functions.wp-scripts.php(155): wp_scripts()
+#8 W:\domains\MarinaWP\wp-content\plugins\woocommerce\includes\widgets\class-wc-widget-price-filter.php(34): wp_register_script('accounting', in W:\domains\MarinaWP\wp-includes\script-loader.php on line 488
+
+2019-03-27T14:09:30+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_active_and_valid_themes() in W:\domains\MarinaWP\wp-settings.php:477
+Stack trace:
+#0 W:\domains\MarinaWP\wp-config.php(89): require_once()
+#1 W:\domains\MarinaWP\wp-load.php(37): require_once('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(13): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-settings.php on line 477
+
+2019-03-27T14:09:30+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_active_and_valid_themes() in W:\domains\MarinaWP\wp-settings.php:477
+Stack trace:
+#0 W:\domains\MarinaWP\wp-config.php(89): require_once()
+#1 W:\domains\MarinaWP\wp-load.php(37): require_once('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(13): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-settings.php on line 477
+
+2019-03-27T14:09:31+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_active_and_valid_themes() in W:\domains\MarinaWP\wp-settings.php:477
+Stack trace:
+#0 W:\domains\MarinaWP\wp-config.php(89): require_once()
+#1 W:\domains\MarinaWP\wp-load.php(37): require_once('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(13): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-settings.php on line 477
+
+2019-03-27T14:09:31+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_active_and_valid_themes() in W:\domains\MarinaWP\wp-settings.php:477
+Stack trace:
+#0 W:\domains\MarinaWP\wp-config.php(89): require_once()
+#1 W:\domains\MarinaWP\wp-load.php(37): require_once('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(13): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-settings.php on line 477
+
+2019-03-27T14:09:31+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_active_and_valid_themes() in W:\domains\MarinaWP\wp-settings.php:477
+Stack trace:
+#0 W:\domains\MarinaWP\wp-config.php(89): require_once()
+#1 W:\domains\MarinaWP\wp-load.php(37): require_once('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(13): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-settings.php on line 477
+
+2019-03-27T14:09:32+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_active_and_valid_themes() in W:\domains\MarinaWP\wp-settings.php:477
+Stack trace:
+#0 W:\domains\MarinaWP\wp-config.php(89): require_once()
+#1 W:\domains\MarinaWP\wp-load.php(37): require_once('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(13): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-settings.php on line 477
+
+2019-03-27T14:09:32+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_active_and_valid_themes() in W:\domains\MarinaWP\wp-settings.php:477
+Stack trace:
+#0 W:\domains\MarinaWP\wp-config.php(89): require_once()
+#1 W:\domains\MarinaWP\wp-load.php(37): require_once('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(13): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-settings.php on line 477
+
+2019-03-27T14:09:34+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_active_and_valid_themes() in W:\domains\MarinaWP\wp-settings.php:477
+Stack trace:
+#0 W:\domains\MarinaWP\wp-config.php(89): require_once()
+#1 W:\domains\MarinaWP\wp-load.php(37): require_once('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(13): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-settings.php on line 477
+
+2019-03-27T14:09:34+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_active_and_valid_themes() in W:\domains\MarinaWP\wp-settings.php:477
+Stack trace:
+#0 W:\domains\MarinaWP\wp-config.php(89): require_once()
+#1 W:\domains\MarinaWP\wp-load.php(37): require_once('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(13): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-settings.php on line 477
+
+2019-03-27T14:09:34+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_active_and_valid_themes() in W:\domains\MarinaWP\wp-settings.php:477
+Stack trace:
+#0 W:\domains\MarinaWP\wp-config.php(89): require_once()
+#1 W:\domains\MarinaWP\wp-load.php(37): require_once('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(13): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-settings.php on line 477
+
+2019-03-27T14:09:34+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_active_and_valid_themes() in W:\domains\MarinaWP\wp-settings.php:477
+Stack trace:
+#0 W:\domains\MarinaWP\wp-config.php(89): require_once()
+#1 W:\domains\MarinaWP\wp-load.php(37): require_once('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(13): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-settings.php on line 477
+
+2019-03-27T14:09:34+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_active_and_valid_themes() in W:\domains\MarinaWP\wp-settings.php:477
+Stack trace:
+#0 W:\domains\MarinaWP\wp-config.php(89): require_once()
+#1 W:\domains\MarinaWP\wp-load.php(37): require_once('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(13): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-settings.php on line 477
+
+2019-03-27T14:09:36+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_active_and_valid_themes() in W:\domains\MarinaWP\wp-settings.php:477
+Stack trace:
+#0 W:\domains\MarinaWP\wp-config.php(89): require_once()
+#1 W:\domains\MarinaWP\wp-load.php(37): require_once('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(13): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-settings.php on line 477
+
+2019-03-27T14:09:36+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_active_and_valid_themes() in W:\domains\MarinaWP\wp-settings.php:477
+Stack trace:
+#0 W:\domains\MarinaWP\wp-config.php(89): require_once()
+#1 W:\domains\MarinaWP\wp-load.php(37): require_once('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(13): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-settings.php on line 477
+
+2019-03-27T14:09:36+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_active_and_valid_themes() in W:\domains\MarinaWP\wp-settings.php:477
+Stack trace:
+#0 W:\domains\MarinaWP\wp-config.php(89): require_once()
+#1 W:\domains\MarinaWP\wp-load.php(37): require_once('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(13): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-settings.php on line 477
+
+2019-03-27T14:09:36+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_active_and_valid_themes() in W:\domains\MarinaWP\wp-settings.php:477
+Stack trace:
+#0 W:\domains\MarinaWP\wp-config.php(89): require_once()
+#1 W:\domains\MarinaWP\wp-load.php(37): require_once('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(13): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-settings.php on line 477
+
+2019-03-27T14:09:36+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_active_and_valid_themes() in W:\domains\MarinaWP\wp-settings.php:477
+Stack trace:
+#0 W:\domains\MarinaWP\wp-config.php(89): require_once()
+#1 W:\domains\MarinaWP\wp-load.php(37): require_once('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(13): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-settings.php on line 477
+
+2019-03-27T14:09:36+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_active_and_valid_themes() in W:\domains\MarinaWP\wp-settings.php:477
+Stack trace:
+#0 W:\domains\MarinaWP\wp-config.php(89): require_once()
+#1 W:\domains\MarinaWP\wp-load.php(37): require_once('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(13): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-settings.php on line 477
+
+2019-03-27T14:09:37+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_active_and_valid_themes() in W:\domains\MarinaWP\wp-settings.php:477
+Stack trace:
+#0 W:\domains\MarinaWP\wp-config.php(89): require_once()
+#1 W:\domains\MarinaWP\wp-load.php(37): require_once('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(13): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-settings.php on line 477
+
+2019-03-27T14:09:37+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_active_and_valid_themes() in W:\domains\MarinaWP\wp-settings.php:477
+Stack trace:
+#0 W:\domains\MarinaWP\wp-config.php(89): require_once()
+#1 W:\domains\MarinaWP\wp-load.php(37): require_once('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(13): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-settings.php on line 477
+
+2019-03-27T14:09:37+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_active_and_valid_themes() in W:\domains\MarinaWP\wp-settings.php:477
+Stack trace:
+#0 W:\domains\MarinaWP\wp-config.php(89): require_once()
+#1 W:\domains\MarinaWP\wp-load.php(37): require_once('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(13): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-settings.php on line 477
+
+2019-03-27T14:09:38+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_active_and_valid_themes() in W:\domains\MarinaWP\wp-settings.php:477
+Stack trace:
+#0 W:\domains\MarinaWP\wp-config.php(89): require_once()
+#1 W:\domains\MarinaWP\wp-load.php(37): require_once('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(13): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-settings.php on line 477
+
+2019-03-27T14:09:38+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_active_and_valid_themes() in W:\domains\MarinaWP\wp-settings.php:477
+Stack trace:
+#0 W:\domains\MarinaWP\wp-config.php(89): require_once()
+#1 W:\domains\MarinaWP\wp-load.php(37): require_once('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(13): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-settings.php on line 477
+
+2019-03-27T14:09:38+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_active_and_valid_themes() in W:\domains\MarinaWP\wp-settings.php:477
+Stack trace:
+#0 W:\domains\MarinaWP\wp-config.php(89): require_once()
+#1 W:\domains\MarinaWP\wp-load.php(37): require_once('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(13): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-settings.php on line 477
+
+2019-03-27T14:09:38+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_active_and_valid_themes() in W:\domains\MarinaWP\wp-settings.php:477
+Stack trace:
+#0 W:\domains\MarinaWP\wp-config.php(89): require_once()
+#1 W:\domains\MarinaWP\wp-load.php(37): require_once('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(13): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-settings.php on line 477
+
+2019-03-27T14:09:38+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_active_and_valid_themes() in W:\domains\MarinaWP\wp-settings.php:477
+Stack trace:
+#0 W:\domains\MarinaWP\wp-config.php(89): require_once()
+#1 W:\domains\MarinaWP\wp-load.php(37): require_once('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(13): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-settings.php on line 477
+
+2019-03-27T14:09:38+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_active_and_valid_themes() in W:\domains\MarinaWP\wp-settings.php:477
+Stack trace:
+#0 W:\domains\MarinaWP\wp-config.php(89): require_once()
+#1 W:\domains\MarinaWP\wp-load.php(37): require_once('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(13): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-settings.php on line 477
+
+2019-03-27T14:59:11+00:00 CRITICAL syntax error, unexpected ')', expecting ']' in W:\domains\MarinaWP\wp-content\themes\marinka\single-sublessons.php on line 27
+
+2019-03-27T15:56:06+00:00 CRITICAL Uncaught Error: Call to undefined function wpb_get_post_views() in W:\domains\MarinaWP\wp-content\themes\marinka\single-lessons.php:58
+Stack trace:
+#0 W:\domains\MarinaWP\wp-includes\template-loader.php(74): include()
+#1 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#3 {main}
+  thrown in W:\domains\MarinaWP\wp-content\themes\marinka\single-lessons.php on line 58
+

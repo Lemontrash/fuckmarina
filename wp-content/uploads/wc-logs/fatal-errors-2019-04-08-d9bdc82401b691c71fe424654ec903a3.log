@@ -1,0 +1,57 @@
+2019-04-08T09:51:44+00:00 CRITICAL syntax error, unexpected ';' in W:\domains\MarinaWP\wp-content\themes\marinka\single.php on line 13
+
+2019-04-08T14:34:11+00:00 CRITICAL Uncaught Error: Call to a member function attributes() on null in W:\domains\MarinaWP\wp-content\themes\marinka\curl.php:94
+Stack trace:
+#0 W:\domains\MarinaWP\wp-content\themes\marinka\aboutUs.php(5): require()
+#1 W:\domains\MarinaWP\wp-includes\template-loader.php(74): include('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-content\themes\marinka\curl.php on line 94
+
+2019-04-08T14:34:31+00:00 CRITICAL Uncaught Error: Call to a member function attributes() on null in W:\domains\MarinaWP\wp-content\themes\marinka\curl.php:94
+Stack trace:
+#0 W:\domains\MarinaWP\wp-content\themes\marinka\aboutUs.php(5): require()
+#1 W:\domains\MarinaWP\wp-includes\template-loader.php(74): include('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-content\themes\marinka\curl.php on line 94
+
+2019-04-08T14:38:40+00:00 CRITICAL Uncaught Error: Call to a member function attributes() on string in W:\domains\MarinaWP\wp-content\themes\marinka\curl.php:94
+Stack trace:
+#0 W:\domains\MarinaWP\wp-content\themes\marinka\aboutUs.php(5): require()
+#1 W:\domains\MarinaWP\wp-includes\template-loader.php(74): include('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-content\themes\marinka\curl.php on line 94
+
+2019-04-08T15:11:57+00:00 CRITICAL Uncaught Error: Call to a member function attributes() on null in W:\domains\MarinaWP\wp-content\themes\marinka\curl.php:100
+Stack trace:
+#0 W:\domains\MarinaWP\wp-content\themes\marinka\aboutUs.php(5): require()
+#1 W:\domains\MarinaWP\wp-includes\template-loader.php(74): include('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-content\themes\marinka\curl.php on line 100
+
+2019-04-08T15:29:28+00:00 CRITICAL Uncaught Exception: String could not be parsed as XML in W:\domains\MarinaWP\wp-content\themes\marinka\curl.php:120
+Stack trace:
+#0 W:\domains\MarinaWP\wp-content\themes\marinka\curl.php(120): SimpleXMLElement->__construct('<?xml version='...')
+#1 W:\domains\MarinaWP\wp-content\themes\marinka\aboutUs.php(5): require('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-includes\template-loader.php(74): include('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#4 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#5 {main}
+  thrown in W:\domains\MarinaWP\wp-content\themes\marinka\curl.php on line 120
+
+2019-04-08T15:33:16+00:00 CRITICAL Uncaught Error: Call to a member function attributes() on null in W:\domains\MarinaWP\wp-content\themes\marinka\curl.php:99
+Stack trace:
+#0 W:\domains\MarinaWP\wp-content\themes\marinka\aboutUs.php(5): require()
+#1 W:\domains\MarinaWP\wp-includes\template-loader.php(74): include('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-content\themes\marinka\curl.php on line 99
+

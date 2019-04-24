@@ -1,0 +1,46 @@
+/**
+ * Public-facing styles.
+ *
+ * @package Nice_Likes
+ * @since   1.0
+ */
+body a.nice-likes {
+  display: inline-block;
+  margin-bottom: 1em;
+  text-decoration: none;
+}
+body a.nice-likes i.nice-likes-icon-heart:before {
+  height: unset;
+  line-height: unset;
+  margin: 0;
+}
+body a.nice-likes i.nice-likes-icon-heart:after {
+  content: " ";
+}
+body a.nice-likes:hover {
+  cursor: pointer;
+}
+body a.nice-likes.updating, body a.nice-likes.waiting {
+  opacity: 0.5;
+  pointer-events: none;
+}
+body a.nice-likes.liked {
+  color: #F26B5F;
+  pointer-events: none;
+}
+body a.nice-likes-unlike {
+  color: grey;
+  margin-left: 0.5em;
+  text-decoration: none;
+}
+body a.nice-likes-unlike:hover {
+  cursor: pointer;
+}
+body a.nice-likes-unlike.updating {
+  opacity: 0.5;
+  pointer-events: none;
+}
+body.rtl a.nice-likes-unlike {
+  margin-left: 0;
+  margin-right: 0.5em;
+}

@@ -1,0 +1,71 @@
+2019-04-10T09:58:53+00:00 CRITICAL Cannot declare class MMKSruct, because the name is already in use in W:\domains\MarinaWP\wp-content\themes\marinka\curl.php on line 11
+
+2019-04-10T13:10:43+00:00 CRITICAL Uncaught Exception: String could not be parsed as XML in W:\domains\MarinaWP\wp-content\plugins\marina.php:101
+Stack trace:
+#0 W:\domains\MarinaWP\wp-content\plugins\marina.php(101): SimpleXMLElement->__construct('')
+#1 W:\domains\MarinaWP\wp-content\plugins\marina.php(107): getApiRequest()
+#2 W:\domains\MarinaWP\wp-content\themes\marinka\aboutUs.php(6): compareToDb()
+#3 W:\domains\MarinaWP\wp-includes\template-loader.php(74): include('W:\\domains\\Mari...')
+#4 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#5 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#6 {main}
+  thrown in W:\domains\MarinaWP\wp-content\plugins\marina.php on line 101
+
+2019-04-10T13:11:59+00:00 CRITICAL Uncaught Error: Call to a member function count() on array in W:\domains\MarinaWP\wp-content\plugins\marina.php:121
+Stack trace:
+#0 W:\domains\MarinaWP\wp-content\themes\marinka\aboutUs.php(6): compareToDb()
+#1 W:\domains\MarinaWP\wp-includes\template-loader.php(74): include('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-content\plugins\marina.php on line 121
+
+2019-04-10T13:12:12+00:00 CRITICAL Uncaught Error: Call to a member function count() on array in W:\domains\MarinaWP\wp-content\plugins\marina.php:123
+Stack trace:
+#0 W:\domains\MarinaWP\wp-content\themes\marinka\aboutUs.php(6): compareToDb()
+#1 W:\domains\MarinaWP\wp-includes\template-loader.php(74): include('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-content\plugins\marina.php on line 123
+
+2019-04-10T13:41:11+00:00 CRITICAL Uncaught Exception: String could not be parsed as XML in W:\domains\MarinaWP\wp-content\plugins\marina.php:101
+Stack trace:
+#0 W:\domains\MarinaWP\wp-content\plugins\marina.php(101): SimpleXMLElement->__construct('')
+#1 W:\domains\MarinaWP\wp-content\plugins\marina.php(107): getApiRequest()
+#2 W:\domains\MarinaWP\wp-content\themes\marinka\aboutUs.php(6): compareToDb()
+#3 W:\domains\MarinaWP\wp-includes\template-loader.php(74): include('W:\\domains\\Mari...')
+#4 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#5 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#6 {main}
+  thrown in W:\domains\MarinaWP\wp-content\plugins\marina.php on line 101
+
+2019-04-10T13:42:00+00:00 CRITICAL Uncaught Exception: String could not be parsed as XML in W:\domains\MarinaWP\wp-content\plugins\marina.php:101
+Stack trace:
+#0 W:\domains\MarinaWP\wp-content\plugins\marina.php(101): SimpleXMLElement->__construct('')
+#1 W:\domains\MarinaWP\wp-content\plugins\marina.php(107): getApiRequest()
+#2 W:\domains\MarinaWP\wp-content\themes\marinka\aboutUs.php(6): compareToDb()
+#3 W:\domains\MarinaWP\wp-includes\template-loader.php(74): include('W:\\domains\\Mari...')
+#4 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#5 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#6 {main}
+  thrown in W:\domains\MarinaWP\wp-content\plugins\marina.php on line 101
+
+2019-04-10T14:29:53+00:00 CRITICAL Uncaught Error: Call to undefined method SimpleXMLElement::toArray() in W:\domains\MarinaWP\wp-content\plugins\marina.php:132
+Stack trace:
+#0 W:\domains\MarinaWP\wp-content\themes\marinka\aboutUs.php(6): compareToDb()
+#1 W:\domains\MarinaWP\wp-includes\template-loader.php(74): include('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-content\plugins\marina.php on line 132
+
+2019-04-10T14:58:01+00:00 CRITICAL Uncaught Error: Unsupported operand types in W:\domains\MarinaWP\wp-content\plugins\marina.php:145
+Stack trace:
+#0 W:\domains\MarinaWP\wp-content\themes\marinka\aboutUs.php(6): compareToDb()
+#1 W:\domains\MarinaWP\wp-includes\template-loader.php(74): include('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#3 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#4 {main}
+  thrown in W:\domains\MarinaWP\wp-content\plugins\marina.php on line 145
+

@@ -1,0 +1,14 @@
+2019-03-25T16:35:07+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in W:\domains\MarinaWP\wp-content\themes\marinka\mainpage_template.php on line 132
+
+2019-03-25T16:35:38+00:00 CRITICAL syntax error, unexpected end of file in W:\domains\MarinaWP\wp-content\themes\marinka\mainpage_template.php on line 279
+
+2019-03-25T16:36:29+00:00 CRITICAL syntax error, unexpected '}' in W:\domains\MarinaWP\wp-content\themes\marinka\mainpage_template.php on line 123
+
+2019-03-25T16:43:56+00:00 CRITICAL Uncaught Error: Call to undefined function get_fied() in W:\domains\MarinaWP\wp-content\themes\marinka\mainpage_template.php:121
+Stack trace:
+#0 W:\domains\MarinaWP\wp-includes\template-loader.php(77): include()
+#1 W:\domains\MarinaWP\wp-blog-header.php(19): require_once('W:\\domains\\Mari...')
+#2 W:\domains\MarinaWP\index.php(17): require('W:\\domains\\Mari...')
+#3 {main}
+  thrown in W:\domains\MarinaWP\wp-content\themes\marinka\mainpage_template.php on line 121
+

@@ -1,0 +1,9 @@
+
+.nice-likes-icon-heart-empty:before { content: '\e800'; } /* '' */
+.nice-likes-icon-heart:before { content: '\e801'; } /* '' */
+.nice-likes-icon-star:before { content: '\e802'; } /* '' */
+.nice-likes-icon-star-empty:before { content: '\e803'; } /* '' */
+.nice-likes-icon-thumbs-up-alt:before { content: '\e804'; } /* '' */
+.nice-likes-icon-thumbs-down-alt:before { content: '\e805'; } /* '' */
+.nice-likes-icon-thumbs-down:before { content: '\e806'; } /* '' */
+.nice-likes-icon-thumbs-up:before { content: '\e807'; } /* '' */

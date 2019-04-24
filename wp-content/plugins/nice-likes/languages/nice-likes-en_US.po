@@ -1,0 +1,653 @@
+# Copyright (C) 2015 NiceThemes
+# This file is distributed under the same license as the Nice_Likes package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Nice Likes by NiceThemes\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/plugins/nice-likes\n"
+"POT-Creation-Date: 2016-08-05 20:44-0300\n"
+"PO-Revision-Date: 2016-08-05 20:44-0300\n"
+"Last-Translator: NiceThemes <hello@nicethemes.com>\n"
+"Language-Team: NiceThemes <hello@nicethemes.com >\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
+"esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: admin/action-links.php:35 admin/ui/sections.php:27
+msgid "Settings"
+msgstr "Settings"
+
+#: admin/help-pointers.php:34
+msgid ""
+"Thank you for installing this plugin :) In this page you can set all the "
+"available options to display your likes the way you want."
+msgstr ""
+"Thank you for installing this plugin :) In this page you can set all the "
+"available options to display your likes the way you want."
+
+#: admin/notices.php:94
+#, php-format
+msgid ""
+"You just installed %1$s. Go to %2$sLikes Settings%3$s to configure the "
+"plugin or %4$sdismiss this message%5$s."
+msgstr ""
+"You just installed %1$s. Go to %2$sLikes Settings%3$s to configure the "
+"plugin or %4$sdismiss this message%5$s."
+
+#: admin/ui/footer-links.php:28
+msgid "Themes"
+msgstr "Themes"
+
+#: admin/ui/footer-links.php:34
+msgid "Plugins"
+msgstr "Plugins"
+
+#: admin/ui/footer-links.php:40 admin/ui/help-tabs.php:48
+#: admin/ui/templates/help-tab-help.php:16
+msgid "Help & Support"
+msgstr "Help & Support"
+
+#: admin/ui/footer-links.php:46 admin/ui/templates/help-sidebar.php:20
+msgid "Rate this plugin"
+msgstr "Rate this plugin"
+
+#: admin/ui/help-tabs.php:38 admin/ui/settings-groups.php:27
+#: admin/ui/templates/help-tab-general.php:16
+msgid "General Settings"
+msgstr "General Settings"
+
+#: admin/ui/help-tabs.php:43 admin/ui/settings-groups.php:34
+#: admin/ui/templates/help-tab-advanced.php:16
+msgid "Advanced Settings"
+msgstr "Advanced Settings"
+
+#: admin/ui/help-tabs.php:53
+msgid "Compatible Themes"
+msgstr "Compatible Themes"
+
+#: admin/ui/init.php:27
+msgid "Likes"
+msgstr "Likes"
+
+#: admin/ui/sections.php:28
+msgid "Nice Likes Settings"
+msgstr "Nice Likes Settings"
+
+#: admin/ui/sections.php:30
+msgid ""
+"Welcome to the Settings Panel. Here you can set up and configure all of the "
+"different options for this magnificent plugin."
+msgstr ""
+"Welcome to the Settings Panel. Here you can set up and configure all of the "
+"different options for this magnificent plugin."
+
+#: admin/ui/sections.php:34
+msgid "About"
+msgstr "About"
+
+#: admin/ui/sections.php:35
+msgid "About Nice Likes"
+msgstr "About Nice Likes"
+
+#: admin/ui/settings-groups.php:28
+msgid "Configure how your Likes will be displayed."
+msgstr "Configure how your Likes will be displayed."
+
+#: admin/ui/settings-groups.php:35
+msgid ""
+"Options presented here are for advanced users only, so you must use them "
+"carefully."
+msgstr ""
+"Options presented here are for advanced users only, so you must use them "
+"carefully."
+
+#: admin/ui/settings.php:29
+msgid "Enable Likes"
+msgstr "Enable Likes"
+
+#: admin/ui/settings.php:30
+msgid "Get the plugin working."
+msgstr "Get the plugin working."
+
+#: admin/ui/settings.php:36
+msgid "Show Likes in"
+msgstr "Show Likes in"
+
+#: admin/ui/settings.php:37
+msgid "Select where you want to show likes."
+msgstr "Select where you want to show likes."
+
+#: admin/ui/settings.php:40
+msgid "Posts"
+msgstr "Posts"
+
+#: admin/ui/settings.php:41
+msgid "Pages"
+msgstr "Pages"
+
+#: admin/ui/settings.php:48
+msgid "Exclude by ID"
+msgstr "Exclude by ID"
+
+#: admin/ui/settings.php:49
+msgid ""
+"Enter here the IDs (comma-separated) of posts and pages where you don't want "
+"to show likes."
+msgstr ""
+"Enter here the IDs (comma-separated) of posts and pages where you don't want "
+"to show likes."
+
+#: admin/ui/settings.php:55
+msgid "Position"
+msgstr "Position"
+
+#: admin/ui/settings.php:56
+#, php-format
+msgid ""
+"Select the position where likes will appear within posts and pages. If you "
+"select a custom location, you need to add %s to your theme."
+msgstr ""
+"Select the position where likes will appear within posts and pages. If you "
+"select a custom location, you need to add %s to your theme."
+
+#: admin/ui/settings.php:59
+msgid "Before the content"
+msgstr "Before the content"
+
+#: admin/ui/settings.php:60
+msgid "After the content"
+msgstr "After the content"
+
+#: admin/ui/settings.php:61
+msgid "In a custom location"
+msgstr "In a custom location"
+
+#: admin/ui/settings.php:67
+msgid "Text format for zero likes"
+msgstr "Text format for zero likes"
+
+#: admin/ui/settings.php:68
+#, php-format
+msgid "The text to show when there are no likes. Use \"%s\" for the number."
+msgstr "The text to show when there are no likes. Use \"%s\" for the number."
+
+#: admin/ui/settings.php:74
+msgid "Text format for one like"
+msgstr "Text format for one like"
+
+#: admin/ui/settings.php:75
+#, php-format
+msgid "The text to show when there's only one like. Use \"%s\" for the number."
+msgstr ""
+"The text to show when there's only one like. Use \"%s\" for the number."
+
+#: admin/ui/settings.php:81
+msgid "Text format for more than one like."
+msgstr "Text format for more than one like."
+
+#: admin/ui/settings.php:82
+#, php-format
+msgid ""
+"The text to show when there's more than one like. Use \"%s\" for the number."
+msgstr ""
+"The text to show when there's more than one like. Use \"%s\" for the number."
+
+#: admin/ui/settings.php:88
+msgid "Text for \"unlike\" link."
+msgstr "Text for \"unlike\" link."
+
+#: admin/ui/settings.php:89
+msgid ""
+"Text for the link that will remove the visitor's like. If left empty, the "
+"link will not be displayed."
+msgstr ""
+"Text for the link that will remove the visitor's like. If left empty, the "
+"link will not be displayed."
+
+#: admin/ui/settings.php:95
+msgid "Use AJAX"
+msgstr "Use AJAX"
+
+#: admin/ui/settings.php:96
+msgid "Automatically update the count of likes without reloading the page."
+msgstr "Automatically update the count of likes without reloading the page."
+
+#: admin/ui/settings.php:102
+msgid "Avoid Plugin CSS"
+msgstr "Avoid Plugin CSS"
+
+#: admin/ui/settings.php:103
+msgid "Apply styles to likes elements using your own CSS."
+msgstr "Apply styles to likes elements using your own CSS."
+
+#: admin/ui/settings.php:113
+msgid "Remove Data On Deactivation"
+msgstr "Remove Data On Deactivation"
+
+#: admin/ui/settings.php:114
+msgid "Delete all plugin settings once you deactivate it."
+msgstr "Delete all plugin settings once you deactivate it."
+
+#: admin/ui/settings.php:152
+msgid "Other (blog, categories, archives, etc.)"
+msgstr "Other (blog, categories, archives, etc.)"
+
+#: admin/ui/sidebar-boxes.php:32
+msgid "Subscribe to our Newsletter"
+msgstr "Subscribe to our Newsletter"
+
+#: admin/ui/sidebar-boxes.php:36
+msgid "Need help with this plugin?"
+msgstr "Need help with this plugin?"
+
+#: admin/ui/sidebar-boxes.php:40
+msgid "Like this plugin?"
+msgstr "Like this plugin?"
+
+#: admin/ui/sidebar-boxes.php:44
+msgid "Join us on"
+msgstr "Join us on"
+
+#: admin/ui/tabs.php:30
+msgid "General"
+msgstr "General"
+
+#: admin/ui/tabs.php:40
+msgid "Advanced"
+msgstr "Advanced"
+
+#: admin/ui/templates/about-heading.php:17
+#, php-format
+msgid "Nice Likes %s"
+msgstr "Nice Likes %s"
+
+#: admin/ui/templates/about-heading.php:18
+msgid "A simple and customizable Likes plugin for your website"
+msgstr "A simple and customizable Likes plugin for your website"
+
+#: admin/ui/templates/help-sidebar.php:16
+msgid "For more information:"
+msgstr "For more information:"
+
+#: admin/ui/templates/help-sidebar.php:17
+msgid "WordPress.org Plugin"
+msgstr "WordPress.org Plugin"
+
+#: admin/ui/templates/help-sidebar.php:18
+msgid "Github Project"
+msgstr "Github Project"
+
+#: admin/ui/templates/help-sidebar.php:19
+#: admin/ui/templates/help-tab-themes.php:16
+msgid "Official Themes"
+msgstr "Official Themes"
+
+#: admin/ui/templates/help-tab-advanced.php:18
+msgid ""
+"This screen provides settings for advanced users, such as removing all the "
+"configurations for this plugin when you deactivate it."
+msgstr ""
+"This screen provides settings for advanced users, such as removing all the "
+"configurations for this plugin when you deactivate it."
+
+#: admin/ui/templates/help-tab-advanced.php:20
+#, php-format
+msgid ""
+"If you need further support, please consider checking the %sdocumentation%s "
+"or %sreporting a bug%s."
+msgstr ""
+"If you need further support, please consider checking the %sdocumentation%s "
+"or %sreporting a bug%s."
+
+#: admin/ui/templates/help-tab-general.php:18
+msgid ""
+"Configure how your Likes will be displayed by default. You can enable the "
+"plugin and get it working, select where your likes are going to be "
+"displayed, set custom texts, etc."
+msgstr ""
+"Configure how your Likes will be displayed by default. You can enable the "
+"plugin and get it working, select where your likes are going to be "
+"displayed, set custom texts, etc."
+
+#: admin/ui/templates/help-tab-general.php:20
+#, php-format
+msgid ""
+"This screen provides the most basic settings for configuring the plugin. If "
+"you need further support, please consider checking the %sdocumentation%s or "
+"%sreporting a bug%s."
+msgstr ""
+"This screen provides the most basic settings for configuring the plugin. If "
+"you need further support, please consider checking the %sdocumentation%s or "
+"%sreporting a bug%s."
+
+#: admin/ui/templates/help-tab-help.php:18
+#, php-format
+msgid ""
+"Before asking for help we recommend checking the %splugin documentation%s to "
+"identify any problems with your configuration."
+msgstr ""
+"Before asking for help we recommend checking the %splugin documentation%s to "
+"identify any problems with your configuration."
+
+#: admin/ui/templates/help-tab-help.php:20
+#, php-format
+msgid ""
+"After reading the documentation, for further assistance you can use our "
+"%scommunity forum%s."
+msgstr ""
+"After reading the documentation, for further assistance you can use our "
+"%scommunity forum%s."
+
+#: admin/ui/templates/help-tab-help.php:22
+msgid "Found a bug?"
+msgstr "Found a bug?"
+
+#: admin/ui/templates/help-tab-help.php:24
+msgid ""
+"If you find a bug within this plugin, you can either report it in our forum "
+"or create a ticket via GitHub issues. Be as descriptive as possible and "
+"please tell us how to reproduce the issue step by step."
+msgstr ""
+"If you find a bug within this plugin, you can either report it in our forum "
+"or create a ticket via GitHub issues. Be as descriptive as possible and "
+"please tell us how to reproduce the issue step by step."
+
+#: admin/ui/templates/help-tab-help.php:26
+msgid "Report bug in GitHub"
+msgstr "Report bug in GitHub"
+
+#: admin/ui/templates/help-tab-help.php:26
+msgid "Report bug in forum"
+msgstr "Report bug in forum"
+
+#: admin/ui/templates/help-tab-themes.php:18
+msgid ""
+"We create wonderful WordPress Plugins and Themes. Some of them are "
+"distributed for free, like this one. If you like this plugin, please "
+"consider checking our paid products."
+msgstr ""
+"We create wonderful WordPress Plugins and Themes. Some of them are "
+"distributed for free, like this one. If you like this plugin, please "
+"consider checking our paid products."
+
+#: admin/ui/templates/help-tab-themes.php:20
+msgid "Check the official Themes"
+msgstr "Check the official Themes"
+
+#: admin/ui/templates/widget-help.php:16
+msgid ""
+"We have some documentation for you to start taking the most out of this "
+"wonderful WordPress plugin."
+msgstr ""
+"We have some documentation for you to start taking the most out of this "
+"wonderful WordPress plugin."
+
+#: admin/ui/templates/widget-help.php:17
+msgid "Read plugin documentation"
+msgstr "Read plugin documentation"
+
+#: admin/ui/templates/widget-newsletter.php:16
+msgid ""
+"If you would like to keep up to date regarding Nice Likes and other plugins "
+"by NiceThemes, subscribe to the newsletter:"
+msgstr ""
+"If you would like to keep up to date regarding Nice Likes and other plugins "
+"by NiceThemes, subscribe to the newsletter:"
+
+#: admin/ui/templates/widget-newsletter.php:35
+msgid "Email Address"
+msgstr "Email Address"
+
+#: admin/ui/templates/widget-newsletter.php:45
+msgid "Get me in!"
+msgstr "Get me in!"
+
+#: admin/ui/templates/widget-rate-plugin.php:16
+msgid ""
+"If you like this plugin, please rate it 5 stars on WordPress.org and "
+"consider checking our paid products."
+msgstr ""
+"If you like this plugin, please rate it 5 stars on WordPress.org and "
+"consider checking our paid products."
+
+#: admin/ui/templates/widget-rate-plugin.php:18
+msgid "See our official themes"
+msgstr "See our official themes"
+
+#: admin/ui/templates/widget-rate-plugin.php:19
+msgid "Check other plugins by NiceThemes"
+msgstr "Check other plugins by NiceThemes"
+
+# Plugin name.
+#: includes/i18n.php:26
+msgid "Nice Likes"
+msgstr "Nice Likes"
+
+#: includes/i18n.php:27
+msgid "Nice Likes By NiceThemes"
+msgstr "Nice Likes By NiceThemes"
+
+# Plugin description.
+#: includes/i18n.php:28
+msgid ""
+"Add \"liking\" functionality to your posts, pages and custom post types on "
+"your WordPress site."
+msgstr ""
+"Add \"liking\" functionality to your posts, pages and custom post types on "
+"your WordPress site."
+
+#: includes/settings.php:38 includes/settings.php:40
+#, php-format
+msgid "%s Likes"
+msgstr "%s Likes"
+
+#: includes/settings.php:39
+#, php-format
+msgid "%s Like"
+msgstr "%s Like"
+
+#: includes/settings.php:41
+msgid "I don't like this anymore"
+msgstr "I don't like this anymore"
+
+#: lib/admin-ui/display/class-admin-ui-display-responder.php:179
+msgid "Use This File"
+msgstr "Use This File"
+
+#: lib/admin-ui/display/class-admin-ui-display-responder.php:181
+msgid "Remove"
+msgstr "Remove"
+
+#: lib/admin-ui/display/class-admin-ui-display-responder.php:370
+msgid "Upload file"
+msgstr "Upload file"
+
+#: lib/admin-ui/includes/class-admin-ui-html-handler.php:176
+msgid "Search"
+msgstr "Search"
+
+#: lib/nice-adr/src/functions.php:237
+#, php-format
+msgid "%s action does not exist. You need to create it in order to proceed."
+msgstr "%s action does not exist. You need to create it in order to proceed."
+
+#: lib/plugin-api/admin/create/class-admin-create-responder.php:69
+#, php-format
+msgid ""
+"%1$s requires WordPress %2$s or higher, and has been deactivated. Please "
+"upgrade WordPress and try again."
+msgstr ""
+"%1$s requires WordPress %2$s or higher, and has been deactivated. Please "
+"upgrade WordPress and try again."
+
+#: lib/plugin-api/admin/create/class-admin-create-responder.php:71
+#: lib/plugin-api/admin/create/class-admin-create-responder.php:78
+#: lib/plugin-api/admin/create/class-admin-create-responder.php:85
+#, php-format
+msgid "Back to %1$sWordPress Dashboard%2$s."
+msgstr "Back to %1$sWordPress Dashboard%2$s."
+
+#: lib/plugin-api/admin/create/class-admin-create-responder.php:76
+#, php-format
+msgid ""
+"%1$s requires PHP %2$s or higher, and has been deactivated. Please contact "
+"your hosting provider about this issue."
+msgstr ""
+"%1$s requires PHP %2$s or higher, and has been deactivated. Please contact "
+"your hosting provider about this issue."
+
+#: lib/plugin-api/admin/create/class-admin-create-responder.php:83
+#, php-format
+msgid ""
+"%s requires GD Library for PHP, which is not installed on your server. "
+"Please contact your hosting provider about this issue."
+msgstr ""
+"%s requires GD Library for PHP, which is not installed on your server. "
+"Please contact your hosting provider about this issue."
+
+#: lib/plugin-api/admin/functions.php:76
+msgid ""
+"This function should not be called more than once. Please hook your actions "
+"to nice_likes_plugin_admin_after_init in order to prevent recursion."
+msgstr ""
+"This function should not be called more than once. Please hook your actions "
+"to nice_likes_plugin_admin_after_init in order to prevent recursion."
+
+#: lib/plugin-api/functions.php:239
+#, php-format
+msgid "(This message was added in %s version %s.)"
+msgstr "(This message was added in %s version %s.)"
+
+#: lib/plugin-api/functions.php:240
+#, php-format
+msgid "%1$s was called <strong>incorrectly</strong>. %2$s %3$s"
+msgstr "%1$s was called <strong>incorrectly</strong>. %2$s %3$s"
+
+#: lib/plugin-api/plugin/functions.php:70
+msgid ""
+"This function should not be called more than once. Please hook your actions "
+"to nice_likes_plugin_after_init in order to prevent recursion."
+msgstr ""
+"This function should not be called more than once. Please hook your actions "
+"to nice_likes_plugin_after_init in order to prevent recursion."
+
+#: lib/plugin-api/public/functions.php:67
+msgid ""
+"This function should not be called more than once. Please hook your actions "
+"to nice_likes_plugin_public_after_init in order to prevent recursion."
+msgstr ""
+"This function should not be called more than once. Please hook your actions "
+"to nice_likes_plugin_public_after_init in order to prevent recursion."
+
+#: public/template-tags.php:33
+msgid "Loading Likes..."
+msgstr "Loading Likes..."
+
+#~ msgid ""
+#~ "This function should not be called more than once. Please hook your "
+#~ "actions to nice_plugin_admin_after_init in order to prevent recursion."
+#~ msgstr ""
+#~ "This function should not be called more than once. Please hook your "
+#~ "actions to nice_plugin_admin_after_init in order to prevent recursion."
+
+#~ msgid ""
+#~ "This function should not be called more than once. Please hook your "
+#~ "actions to nice_plugin_after_init in order to prevent recursion."
+#~ msgstr ""
+#~ "This function should not be called more than once. Please hook your "
+#~ "actions to nice_plugin_after_init in order to prevent recursion."
+
+#~ msgid ""
+#~ "This function should not be called more than once. Please hook your "
+#~ "actions to nice_plugin_public_after_init in order to prevent recursion."
+#~ msgstr ""
+#~ "This function should not be called more than once. Please hook your "
+#~ "actions to nice_plugin_public_after_init in order to prevent recursion."
+
+#~ msgid "0 Likes"
+#~ msgstr "0 Likes"
+
+#~ msgid "1 Like"
+#~ msgstr "1 Like"
+
+# Plugin name + author.
+#~ msgid "Nice Likes by NiceThemes"
+#~ msgstr "Nice Likes by NiceThemes"
+
+#~ msgid "Likes Settings"
+#~ msgstr "Likes Settings"
+
+#~ msgid ""
+#~ "If you would like to keep up to date regarding the Likes plugin and other "
+#~ "plugins by NiceThemes, subscribe to the newsletter:"
+#~ msgstr ""
+#~ "If you would like to keep up to date regarding the Likes plugin and other "
+#~ "plugins by NiceThemes, subscribe to the newsletter:"
+
+#~ msgid "About Nice Likes by NiceThemes"
+#~ msgstr "About Nice Likes by NiceThemes"
+
+#~ msgid "Portfolio Projects"
+#~ msgstr "Portfolio Projects"
+
+#~ msgid "Nice Likes by NiceThemes %s"
+#~ msgstr "Nice Likes by NiceThemes %s"
+
+#~ msgid ""
+#~ "This is a sample message. You can %1$s click here %2$s to dismiss this. "
+#~ "This same kind of message can be used for automated update processes."
+#~ msgstr ""
+#~ "This is a sample message. You can %1$s click here %2$s to dismiss this. "
+#~ "This same kind of message can be used for automated update processes."
+
+#~ msgid ""
+#~ "Welcome to the Settsings Panel. Here you can set up and configure all of "
+#~ "the different options for this magnificent plugin."
+#~ msgstr ""
+#~ "Welcome to the Settsings Panel. Here you can set up and configure all of "
+#~ "the different options for this magnificent plugin."
+
+#~ msgid "Sample Help tab"
+#~ msgstr "Sample Help tab"
+
+#~ msgid ""
+#~ "This is an extended header that can be hidden, or shown, depending on the "
+#~ "screen and the plugin Purpose."
+#~ msgstr ""
+#~ "This is an extended header that can be hidden, or shown, depending on the "
+#~ "screen and the plugin Purpose."
+
+#~ msgid ""
+#~ "Sitewide subhead banner. This is a kinda' front page layout. We need to "
+#~ "define a content-sidebar layout still."
+#~ msgstr ""
+#~ "Sitewide subhead banner. This is a kinda' front page layout. We need to "
+#~ "define a content-sidebar layout still."
+
+#~ msgid ""
+#~ "Configure how your projects will be displayed by default. All the options "
+#~ "presented here can be overridden in a shortcode basis."
+#~ msgstr ""
+#~ "Configure how your projects will be displayed by default. All the options "
+#~ "presented here can be overridden in a shortcode basis."
+
+#~ msgid "Select where you want to show likes"
+#~ msgstr "Select where you want to show likes"
+
+#~ msgid ""
+#~ "Select the position where likes will appear within posts and pages. If "
+#~ "you select a custom location, you need to add %s to your theme"
+#~ msgstr ""
+#~ "Select the position where likes will appear within posts and pages. If "
+#~ "you select a custom location, you need to add %s to your theme"
+
+#~ msgid "The specified library could not be found at %s"
+#~ msgstr "The specified library could not be found at %s"

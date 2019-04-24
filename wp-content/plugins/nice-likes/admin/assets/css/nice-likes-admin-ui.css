@@ -1,0 +1,91 @@
+/**
+ * Custom CSS rules for Admin UI only.
+ *
+ * @package Nice_Likes
+ * @since   1.0
+ */
+.container .page-content {
+  width: auto;
+}
+
+@media screen and (max-width: 799px) {
+  .container .content-sidebar .content,
+  .container .content-sidebar .sidebar {
+    width: 100%;
+    float: none;
+  }
+  .container .content-sidebar .content {
+    min-width: 420px;
+  }
+}
+.about-wrap {
+  margin: 0;
+  max-width: none;
+}
+.about-wrap .description p {
+  font-size: 18px;
+}
+
+.nice-admin-wrapper.about .box-container {
+  overflow: hidden;
+}
+.nice-admin-wrapper.about .box {
+  width: 30%;
+  margin-right: 3.3333%;
+  margin-bottom: 20px;
+  float: left;
+}
+html[dir="rtl"] .nice-admin-wrapper.about .box {
+  float: right;
+  margin-right: 0;
+  margin-left: 3.3333%;
+}
+@media screen and (max-width: 1023px) {
+  .nice-admin-wrapper.about .box {
+    width: auto;
+    margin: auto;
+    float: none;
+  }
+}
+.nice-admin-wrapper.about .box.first {
+  clear: both;
+}
+
+.main-nav .nice-logo {
+  display: block;
+}
+
+.header {
+  background-color: #db6253;
+  min-width: 450px;
+}
+
+.masthead {
+  background-color: #cc5d50;
+  background-image: url("../images/bg.png");
+}
+.about .masthead h1 {
+  font-size: 3em;
+  max-width: none;
+  padding: 2em 15px 5px;
+}
+.about .masthead h2 {
+  padding: 0 15px 4.2em;
+  font-weight: normal;
+  color: #fff;
+}
+
+.header-nav .current,
+.header-nav li a:hover {
+  background-color: #cc5d50;
+}
+
+.footer {
+  background-color: #2f2f2f;
+}
+.footer .primary {
+  border-color: #151515;
+}
+.footer .secondary {
+  border-color: #3c3c3c;
+}
